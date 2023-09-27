@@ -1,3 +1,6 @@
+# Executaveis
+*.out
+
 # Prerequisites
 *.d
 
