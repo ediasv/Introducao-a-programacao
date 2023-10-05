@@ -5,7 +5,7 @@ int verificaAlternancia(int n, int *k);
 int main()
 {
     int n, k, ehalt;
-    n=12;
+    n=9;
     ehalt = verificaAlternancia(n, &k);
 
     if (ehalt)
@@ -54,6 +54,9 @@ int verificaAlternancia(int n, int *k)
             }
         }
     }
+
+    if (primeiro_bloco)
+        *k = n;
 
     return 1; 
 }
