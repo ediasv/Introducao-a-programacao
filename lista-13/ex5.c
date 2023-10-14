@@ -40,6 +40,8 @@ int main()
     {
         printf("%d ", tabuleiro[i]);
     }
+
     printf("\n");
+    
     return 0;
 }
