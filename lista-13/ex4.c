@@ -9,7 +9,7 @@ int main()
     scanf("%d", &n);
 
     soma = 0;
-    for (i = 0; i < n; i++ )
+    for (i = 0; i < n; i++)
     {
         scanf("%d", &secoes[i]);
         soma += secoes[i];
